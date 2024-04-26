@@ -53,7 +53,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="/job-board/public/html/about.html" class="nav-item nav-link">About</a>
+                    <a href="html/about.html" class="nav-item nav-link">About</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Jobs</a>
                         <div class="dropdown-menu rounded-0 m-0">
@@ -66,8 +66,8 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Register</a>
                         <div class="dropdown-menu rounded-0 m-0">
-                          <a href="{{ route('register') }}?role=candidate" class="dropdown-item">As Candidate</a>
-                          <a href="{{ route('register') }}?role=employer" class="dropdown-item">As Employer</a>
+                            <a href="register" class="dropdown-item">As Candidate</a>
+                            <a href="register" class="dropdown-item">As Employee</a>
                         </div>
                     </div>
                     <a href="login" class="nav-item nav-link">Login</a>
